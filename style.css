@@ -1,0 +1,160 @@
+
+
+
+body {
+  background: url(../ressources/bar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin-left: 20px;
+  padding: 0px;
+  color: #ffe600;
+  text-decoration: underline;
+  font-family: "Pacifico";
+  text-shadow:
+    0 0 7px#0de606,
+    0 0 10px #546029,
+    0 0 21px #546029,
+    0 0 42px #546029,
+    0 0 82px #546029,
+    0 0 92px #546029,
+    0 0 102px #546029,
+    0 0 151px #546029;
+}
+
+
+li {
+  font-family: "Pacifico";
+  display: inline-flex;
+  margin: 10px;
+  color: #ffe600;
+  text-shadow:
+  0 0 7px#0de606,
+  0 0 10px #546029,
+  0 0 21px #546029,
+  0 0 42px #546029,
+  0 0 82px #546029,
+  0 0 92px #546029,
+  0 0 102px #546029,
+  0 0 151px #546029;
+}
+
+a {
+  padding-left: 5px;
+  color: #ffe600;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+footer {
+  color: #ffe600;
+  background: url(".//ressources/wood.png");
+  margin: 420px -5px 2px 2px;
+  padding-left: 0.5px;
+  text-align: center;
+  width: 1340px;
+}
+
+/* history-page*/
+
+#page_content {
+  border: thick double #c25106;
+  font-family: "Merienda";
+  background: #f7eded;
+  color: #a55d00;
+  opacity: 0.90;
+  width: 800px;
+  height: auto;
+  margin: 35px 300px
+}
+
+h2, h3 {
+  padding-left: 5px;
+  font-family: "Pacifico";
+  color: #ffe600;
+  text-decoration: underline;
+  text-shadow:
+  0 0 7px#0de606,
+  0 0 10px #546029,
+  0 0 21px #546029,
+  0 0 42px #546029,
+  0 0 82px #546029,
+  0 0 92px #546029,
+  0 0 102px #546029,
+  0 0 151px #546029;
+}
+  
+
+
+h4 {
+  font-family: "Pacifico";
+  color: #ffe600;
+  text-shadow:
+  0 0 7px#0de606,
+  0 0 10px #546029,
+  0 0 21px #546029,
+  0 0 42px #546029,
+  0 0 82px #546029,
+  0 0 92px #546029,
+  0 0 102px #546029,
+  0 0 151px #546029;
+}
+
+p {
+  font-family: "Merienda";
+  color: #ffe600;
+}
+
+/*cocktails-page*/
+
+/* If the amount of items is above 3 */
+/* Change the layout direction */
+.container > :nth-last-child(n+3),
+.container > :nth-last-child(n+3) ~ * {
+  flex-direction: column;
+}
+
+/* And change the image height and color */
+.container > :nth-last-child(n+3) .image,
+.container > :nth-last-child(n+3) ~ * .image {
+  height: 120px;
+  background: salmon;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 1em auto;
+}
+.mini-card {
+  display: flex;
+  width: 400px;
+  max-width: 100%;
+  margin: 1em;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.text {
+  font-size: .875em;
+  line-height: 1.55;
+  padding: 8px;
+  background: #fff;
+  font-family: "Merienda";
+  color: #ffe600;
+  text-shadow:
+  0 0 7px#0de606,
+  0 0 10px #546029,
+  0 0 21px #546029,
+  0 0 42px #546029,
+  0 0 82px #546029,
+  0 0 92px #546029,
+  0 0 102px #546029,
+  0 0 151px #546029;
+}
